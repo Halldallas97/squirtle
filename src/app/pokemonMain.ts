@@ -8,8 +8,8 @@ let next = 0;
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './pokemonSkeleton.html',
+  styleUrls: ['./pokemonStyleSheets.css']
 })
 
 export class AppComponent {
