@@ -1,0 +1,46 @@
+.pokemon{
+    text-align: center;
+}
+ul {
+    text-align: center;
+  }
+.box{
+  margin-top: 15px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+p{
+  color: #ca7721;
+}
+strong{
+  color: #297383;
+}
+
+.hint-button{
+  color: #ca7721;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+span{
+  float: left;
+}
+  input {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  .simple-keyboard {
+    margin: auto;
+    max-width: 850px;
+  }

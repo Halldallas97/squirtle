@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --header-height: 10%;
+}
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+body{
+  background-color: #93c8d0;
+
+}
+h1{
+    text-align: center;
+    color: #ca7721;
+}
+  
+.letter-box {
+    border: 2px solid #297383;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+  
+.filled-box {
+    border: 2px solid #f3c877;
+}
+  
+.letter-row {
+    display: flex;
+    
+}
+
+.head{
+  background-color:#297383; 
+  position: fixed;
+  float: left;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  opacity: 0.8; 
+  list-style-type: none;
+}
